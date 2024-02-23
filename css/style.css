@@ -3,9 +3,40 @@
    margin: 0%;
    padding: 0%;
 }
-
+nav{
+   width: 900px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+ 
+}
 .img{
 
    margin: 8px;
 
+}
+
+.enlaces{
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   align-items: center;
+  
+   
+}
+.idiomas{
+   margin: 7px;
+   display: flex;
+   gap: 7px;
+}
+.enlace{
+   text-decoration: none;
+   color: grey;
+}
+.cubo{
+   padding: 9px;
+   background-color: gray;
+   color: white
 }
