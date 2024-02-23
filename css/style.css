@@ -3,3 +3,54 @@
    margin: 0;
 }
 
+
+.header{
+display: flex;
+
+justify-content: center;
+padding: 30px;
+
+}
+main{
+   display: flex;
+   flex-direction: row;
+
+   
+   
+}
+.articulo{
+   padding: 20px;
+   display: flex;
+   order:1;
+   flex-grow: 10;
+  gap: 30px;
+   background-color: rgb(170 170 170);
+   flex-direction: column;
+   
+  
+}
+
+nav{
+   padding: 20px;
+   display: flex;
+   flex-grow: 5;
+ 
+   background-color: rgb(187 187 187);
+   height: 750px;
+
+}
+
+aside{
+   padding: 20px;
+   display: flex;
+   flex-grow: 5;
+   order: 1;
+   
+   background-color: rgb(187 187 187);
+}
+footer{
+
+   display: flex;   
+   justify-content: center;
+   padding: 30px;
+}
