@@ -4,16 +4,45 @@
 
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: column;
-  
-   
-}
-
-.sala{
+.contenedor2{
     display:flex;
     justify-content: center;
-    align-items: column;
+    align-items: center;
+    padding :250px;
+}
+.contenedor{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+    height: 300px;
+    overflow: hidden;
+    width: 30%;
+    padding: 10px;
+    background: #DDD;
+}
+
+.box{
+padding: 10px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   background-color: #DDD;
+    
+    flex-direction: column;
+   
+  }
+
+.sala{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 10px;
+  
 }
