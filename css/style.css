@@ -5,6 +5,55 @@
 }
 
 
+.container{
+    display: flex;
+   width: 100%;
+   flex-direction: column;
+   gap: 40px;
+   align-items: center;
+  
+  
+    
+}
+
+.inicio{
+    margin-top: 20px;
+  
+   display: flex;
+   align-items: row;
+   gap: 300px;
+   justify-content: center;
+   align-items: center
+
+    
+}
+
+.about{
+    
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    gap: 300px;
+    align-items: center
+}
+
+.servicios{
+    display: flex;
+    align-items: row;
+    justify-content: center;
+   
+    gap: 300px;
+    align-items: center
 
 
+}
+.contacto{
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    gap: 300px;
+ 
+    align-items: center
+
+}
 
