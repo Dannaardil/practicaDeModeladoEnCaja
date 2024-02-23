@@ -33,10 +33,10 @@ nav{
 }
 .enlace{
    text-decoration: none;
-   color: grey;
+   color: rgb(139 139 139);
 }
 .cubo{
    padding: 9px;
-   background-color: gray;
+   background-color: rgb(139 139 139);
    color: white
 }
