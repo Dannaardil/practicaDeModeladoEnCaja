@@ -3,57 +3,81 @@
  padding: 0;
 
 }
-
-
-.container{
-    display: flex;
-   width: 100%;
-   flex-direction: column;
-   gap: 40px;
-   align-items: center;
-  
+.header{
+    display:flex;
   
     
 }
 
+.container{
+    display: flex;
+  
+   flex-direction: column;
+   gap: 5px;
+ 
+   flex-grow: 2;
+   
+}
+.left{
+   content:"" ;  
+   display:flex;
+   flex-direction: column;
+   flex-grow: 10;
+}
 .inicio{
+    padding: 20px;
+    background-color: #DDD; 
     margin-top: 20px;
   
    display: flex;
    align-items: row;
-   gap: 300px;
-   justify-content: center;
-   align-items: center
+   justify-content: space-between;
+  
+   align-items: center;
+   
 
     
 }
 
 .about{
-    
+    padding: 18px;
+    background-color: #DDD; 
     display: flex;
     align-items: row;
     justify-content: center;
-    gap: 300px;
+    justify-content: space-between;
     align-items: center
 }
 
 .servicios{
+    padding: 17px;
+    background-color: #DDD;   
     display: flex;
     align-items: row;
     justify-content: center;
    
-    gap: 300px;
+    justify-content: space-between;
     align-items: center
 
 
 }
 .contacto{
+    padding: 16px;
+    background-color: #DDD; 
     display: flex;
     align-items: row;
     justify-content: center;
-    gap: 300px;
+    justify-content: space-between;
  
     align-items: center
+
+}
+.enlace{
+    padding: 5px;
+    background-color: white;
+    text-decoration: none;
+    color: black
+   
 
 }
 
