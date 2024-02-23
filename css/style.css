@@ -4,4 +4,16 @@
 
 }
 
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: column;
+  
+   
+}
 
+.sala{
+    display:flex;
+    justify-content: center;
+    align-items: column;
+}
