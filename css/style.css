@@ -4,12 +4,6 @@
    box-sizing: content-box;
 }
 
-
-.container{
-
-     width: 100%;
-     border: 1px dotted red;
-     heigh: 30
-
+body{ background-color:#93d9e9 ;
 
 }
