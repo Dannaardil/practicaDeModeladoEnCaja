@@ -14,10 +14,11 @@ body{ background-color:#93d9e9 ;
    display: flex;
    align-items: center;
   
-   margin-top: 40px;
+   margin-top: 200px;
    
    justify-content: center;
    gap: 30px;
+
  
    
 
@@ -27,6 +28,7 @@ body{ background-color:#93d9e9 ;
    display: flex;
    box-shadow: 5px 5px 10px gray;
    height: 480px;
+   width: 260px;
    flex-direction: column;
    align-items: center;  
    justify-content: center;
